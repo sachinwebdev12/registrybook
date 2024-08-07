@@ -14,3 +14,4 @@
 <script src="<?= base_url('assets/js/todolist.js'); ?>"></script>
 <script src="<?= base_url('assets/js/jquery.cookie.js'); ?>" type="text/javascript"></script>
 <script src="<?= base_url('assets/js/dashboard.js'); ?>"></script>
+<script src="<?= base_url("assets/js/custom.js")?>"></script>
