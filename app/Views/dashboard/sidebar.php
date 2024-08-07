@@ -1,12 +1,12 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="<?= base_url()?>">
                 <i class="icon-grid menu-icon"></i>
                 <span class="menu-title">Dashboard</span>
             </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                 <i class="icon-layout menu-icon"></i>
                 <span class="menu-title">UI Elements</span>
@@ -115,11 +115,11 @@
                     </li>
                 </ul>
             </div>
-        </li>
+        </li> -->
         <li class="nav-item">
-            <a class="nav-link" href="../../../docs/documentation.html">
-                <i class="icon-paper menu-icon"></i>
-                <span class="menu-title">Documentation</span>
+            <a class="nav-link" href="">
+                <i class="ti-power-off menu-icon"></i>
+                <span class="menu-title">Logout</span>
             </a>
         </li>
     </ul>

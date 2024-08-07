@@ -1,0 +1,14 @@
+users {
+    id,
+    organization name,
+    email id,
+    mobile no,
+    address,
+    status,
+    password,
+    role,
+    token,
+    token_expired_at,
+    created_at,
+    updated_at
+}

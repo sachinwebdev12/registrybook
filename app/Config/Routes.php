@@ -33,6 +33,15 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index', ['as'=>'homepage']);
 
+$routes->get('/login', 'Login::index',['filter' =>'auth:not_loggedin','as'=>'login']);
+$routes->post('/login/auth', 'Login::auth',['filter' => 'auth:not_loggedin','as'=>'login_auth']);
+
+$routes->get('/register', 'User::register',['filter' => 'auth:not_loggedin','as'=>'register']);
+$routes->post('/register', 'User::registerPost', ['filter' => 'auth:not_loggedin','as'=>'register_post']);
+
+$routes->post('/user/change-password', 'User::changePassword', ['filter' => 'auth','as'=>'change_password']);
+
+$routes->get('/logout', 'Login::logout',['filter' => 'auth','as'=>'logout']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -25693,3 +25693,60 @@ table.dataTable tbody td.select-checkbox:after {
   }
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+.message-alart-style1 {
+  position: relative;
+}
+
+.message-alart-style1 .alert {
+  border-radius: 4px;
+  font-family: var(--title-font-family);
+  font-weight: 500;
+  padding: 23px 30px;
+  position: relative;
+}
+
+.message-alart-style1 .btn-close {
+  cursor: pointer;
+  right: 12px;
+  top: 5px;
+  font-size: 16px;
+  opacity: 1;
+  /* background: transparent; */
+}
+
+.message-alart-style1 .alart_style_one {
+  background-color: rgba(205, 233, 246, 0.5);
+  color: #4780AA;
+}
+
+.message-alart-style1 .alart_style_one .btn-close {
+  color: #4780AA;
+}
+
+.message-alart-style1 .alart_style_two {
+  background-color: rgba(247, 243, 215, 0.5);
+  color: #927238;
+}
+
+.message-alart-style1 .alart_style_two .btn-close {
+  color: #927238;
+}
+
+.message-alart-style1 .alart_style_three {
+  background-color: rgba(236, 200, 197, 0.5);
+  color: #AB3331;
+}
+
+.message-alart-style1 .alart_style_three .btn-close {
+  color: #AB3331;
+}
+
+.message-alart-style1 .alart_style_four {
+  background-color: rgba(222, 242, 215, 0.5);
+  color: #5B7052;
+}
+
+.message-alart-style1 .alart_style_four .btn-close {
+  color: #5B7052;
+}
